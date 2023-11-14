@@ -67,6 +67,7 @@ const SavedBooks = () => {
                   <Card.Body>
                     <Card.Title>{book.title}</Card.Title>
                     <p className="small">Authors: {book.authors}</p>
+                    <a href={book.link}>Link to Google Books</a>
                     <Card.Text>{book.description}</Card.Text>
                     <Button
                       className="btn-block btn-danger"
