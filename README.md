@@ -1,5 +1,3 @@
-<!-- and the links to the google book page -->
-
 # MERN Book Search Engine 
 
 ## Description
@@ -38,14 +36,12 @@ THEN the menu options change to Search for Books, an option to see my saved book
 
 WHEN I am logged in and enter a search term in the input field and click the submit button
 THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account
-<!-- need to find out how to get the link to google books site  -->
 
 WHEN I click on the Save button on a book
 THEN that book’s information is saved to my account
 
 WHEN I click on the option to see my saved books
 THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
-<!-- need to find out how to get the link to google books site  -->
 
 WHEN I click on the Remove button on a book
 THEN that book is deleted from my saved books list
@@ -75,49 +71,12 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ## Usage
 
-Deployed Webpage: 
+Deployed Webpage: https://astounding-book-search-4c7f8d112f52.herokuapp.com/
 
-![Screenshot]()
+![Screenshot](client/public/images/Screenshot.png)
 
 ## Questions
 
 Regarding any questions please check out my Github profile [JakeHowdeshell](https://github.com/JakeHowdeshell).
 
 Or send me an [email](mailto:Jakehowdy@gmail.com).
-
-
-
-This Challenge is graded based on the following criteria:
-
-## Technical Acceptance Criteria: 40%
-Satisfies all of the preceding acceptance criteria plus the following:
-
-Has an Apollo Server that uses GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API. X
-
-Use an Apollo Server and apply it to the Express.js server as middleware. X
-
-Include schema settings for resolvers and typeDefs as outlined in the Challenge instructions. X
-
-Modify the existing authentication middleware to work in the context of a GraphQL API. X
-
-Use an Apollo Provider so that the application can communicate with the Apollo Server. X
-
-Application must be deployed to Heroku.  
-<!-- need to do this -->
-
-## Deployment: 32%
-Application deployed at live URL.
-
-Application loads with no errors.
-
-Application GitHub URL submitted.
-
-GitHub repository contains application code.
-
-## Application Quality: 15%
-
-Application resembles the mock-up functionality provided in the Challenge instructions.
-
-## Repository Quality: 13%
-
-Repository contains a high-quality README file with description, screenshot, and link to the deployed application.
